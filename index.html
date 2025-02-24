@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nature</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<!-- header section -->
+    <div id="main">
+        <div class="container">
+            <nav>
+                <img src="./img/logo.png" alt="logo">
+                <ul class="nav-list">
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#about-us">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#questions">Contact</a></li>
+                </ul>  
+             
+                 <img src="./img/menu.svg" alt="" class="menu-btn">
+                  
+            </nav>
+
+            <div class="main-content">
+                <h1 class="intro-heading">We all love</h1>
+                <h1 class="main-heading">nature</h1>
+                <p>
+                    Welcome to Nature Website, an internet-based resource devoted to wildlife.
+                </p>
+                <button class="btn btn-primary">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+<!-- services section -->
+    <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>YOUR ADVENTURE BEGINS HERE</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="./img/mammals.jpg" alt="Mammals">
+                    <h3>Mammals</h3>
+                    <p>Mammals represent a diverse and fascinating class of animals. As members of the class Mammalia, they share certain defining characteristics that set them apart from other animal classes.</p>
+                </div>
+
+                <div class="service">
+                    <img src="./img/buterflies.jpeg" alt="Butterflies">
+                    <h3>Butterflies</h3>
+                    <p>Butterflies are winged insects from the lepidopteran superfamily Papilionoidea, characterized by large, often brightly coloured wings that often fold together when at rest, and a conspicuous, fluttering flight.</p>
+                </div>
+
+                <div class="service">
+                    <img src="./img/flow.jpeg" alt="Flower">
+
+                    <h3>Flower</h3>
+                    <p>A flower, also known as a bloom or blossom, is the reproductive structure found in flowering plants. Flowers consist of a combination of vegetative organs sepals that enclose and protect the developing flower. </p>
+                </div>
+                
+                <div class="service">
+                    <img src="./img/mainwildlife.jpeg" alt="Birds">
+                    <h3>Birds</h3>
+                    <p>Birds are a group of warm-blooded vertebrates constituting the class Aves. They are unique in having feathers, which distinguishes them from all other animals. Birds have toothless beaked jaws.</p>
+                </div>
+
+               
+               
+            </div>
+        </div>
+    </section>
+
+<!-- testimonial section -->
+    <section id="testimonial">
+        <div class="container">
+            <img src="img/quote.png" alt="Quote">
+            <h1>"The real wealth of the Nation lies in the resources of the earth - soil, water, forests, minerals, and wildlife."</h1>
+            <div class="profile">
+                <h3>-Rachel Carson</h3>
+            </div>
+        </div>
+    </section>
+
+<!-- About Us -->
+
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>ABOUT US</h4>
+                <h1>Welcome to Nature Website, an internet-based resource devoted to wildlife.</h1>
+                <p>India is home to a large variety of wildlife. It is a biodiversity hotspot with its various ecosystems ranging from the Himalayas in the north to the evergreen rain forests in the south, the desert sands of the west to the marshy mangroves of the east. India is one of the most biodiverse regions of the world and contains three of the world’s 36 biodiversity hotspots – the Western Ghats, the Eastern Himalayas, and the Indo-Burma hotspot.</p>
+                <button class="btn btn-primary">Let's Talk Now</button>
+            </div>
+
+            <div class="about-image">
+                <img src="img/about.png" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- Questions Section -->
+
+    <section id="questions">
+        <div class="container">
+            <h1>QUESTIONS ?</h1>
+            <p>
+                Wheater you are curious about features, we are here to answer any questions.
+            </p>
+            <button class="btn btn-primary">Lets Talk Now</button>
+        </div>
+    </section>
+
+<!-- Footer Section -->
+    <footer>
+        <div class="container">
+            <ul class="footer-links">
+                <li><a href="#main">Home</a></li>
+                <li><a href="#about-us">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#questions">Contact</a></li>
+            </ul>
+            <img src="./img/logo-colored.png" alt="" class="footerLogo">
+            <p>Love Nature by Tyler Moore</p>
+        </div>
+    </footer>
+    
+
+    <script>
+        const navBtn = document.querySelector('.menu-btn')
+        const navList = document.querySelector('.nav-list')
+
+        navBtn.addEventListener('click',function(){
+            navList.classList.toggle("active")
+        })
+    </script>
+</body>
+</html>
